@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+* {
+    text-align: center;
+    font-family: "Fredoka One", cursive;
+}
