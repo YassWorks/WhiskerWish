@@ -7,7 +7,7 @@ const Navbar = async () => {
     const session = await auth();
 
     return (
-        <header className="px-3 py-5 bg-orange-300 text-white flex justify-between items-center">
+        <header className="px-3 bg-orange-200 text-white flex justify-between items-center">
             <nav className="flex items-center w-full">
                 <Link href="/" className="">
                     <Image
@@ -40,7 +40,7 @@ const Navbar = async () => {
                             >
                                 Profile
                             </Link>
-                            
+
                             <form
                                 action={async () => {
                                     "use server";
@@ -56,15 +56,14 @@ const Navbar = async () => {
                                 </button>
                             </form>
 
-                            <div className="border bg-orange-500 px-3 py-1 rounded">
+                            <div className="bg-orange-500 px-3 py-1 rounded-full">
                                 <Link
                                     href="/adopt"
-                                    className="text-white font-semibold hover:text-black"
+                                    className="text-white font-semibold hover:text-orange-800"
                                 >
                                     Adopt now!
                                 </Link>
                             </div>
-
                         </>
                     ) : (
                         <>
