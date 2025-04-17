@@ -1,8 +1,8 @@
-import React from "react";
 import { auth, signIn } from "@/auth";
 import Animal from "@/app/components/Animal";
 
-const AnimalPage = async ({ id }: {id: string}) => {
+const AnimalPage = async ({ params }: { params: { id: string } }) => {
+    const { id } = params;
     const session = await auth();
 
     return (
