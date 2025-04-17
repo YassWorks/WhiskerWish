@@ -1,6 +1,7 @@
 import { auth, signIn } from "@/auth";
 import Animal from "@/app/components/Animal";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
 const AnimalPage = async ({ params }: any) => {
     const { id } = params;
     const session = await auth();
