@@ -12,12 +12,12 @@ export default function Home() {
                 a paw.
                 <br />
                 Every pet deserves a loving home, and every home can be brighter
-                with a loyal companion. Whether you're looking for a playful
-                pup, a cuddly kitten, or a mellow senior pet, we’re here to help
+                with a loyal companion. Whether you&rsquo;re looking for a playful
+                pup, a cuddly kitten, or a mellow senior pet, we&rsquo;re here to help
                 you find the perfect match.
             </p>
             <p className="italic text-pink-700 text-md mb-6">
-                Adopt. Don't shop. Give rescued animals a second chance at
+                Adopt. Don&rsquo;t shop. Give rescued animals a second chance at
                 happiness.
             </p>
 

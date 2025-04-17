@@ -9,7 +9,7 @@ function Contact() {
 
             <p className="text-lg text-gray-700 max-w-2xl mb-6">
                 Have questions? Want to know more about adopting or fostering?
-                Just want to say hi? We'd love to hear from you!
+                Just want to say hi? We&rsquo;d love to hear from you!
             </p>
 
             <div className="w-full max-w-md bg-white p-6 rounded-2xl shadow-md text-left">
