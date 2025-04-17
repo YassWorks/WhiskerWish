@@ -2,15 +2,21 @@ import React from "react";
 import { auth, signIn } from "@/auth";
 import Animal from "@/app/components/Animal";
 
-const AnimalPage = async ({ params }: { params: { id: string } }) => {
+type Props = {
+    data: {
+        id: string;
+    };
+};
+
+const AnimalPage = async ({ data }: Props) => {
     const session = await auth();
-    const { id } = params;
+    const { id } = data;
     return (
         <>
             {session && session?.user ? (
                 <>
                     <div className="flex flex-col items-center justify-center h-screen bg-orange-100 text-gray-800">
-                        <Animal id={id}/>
+                        <Animal id={id} />
                     </div>
                 </>
             ) : (
