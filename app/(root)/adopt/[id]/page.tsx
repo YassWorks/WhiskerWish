@@ -2,13 +2,8 @@ import React from "react";
 import { auth, signIn } from "@/auth";
 import Animal from "@/app/components/Animal";
 
-type Params = {
-    id: string;
-};
-
-const AnimalPage = async ({ params }: { params: Params }) => {
+const AnimalPage = async ({ id }: {id: string}) => {
     const session = await auth();
-    const { id } = params;
 
     return (
         <>
