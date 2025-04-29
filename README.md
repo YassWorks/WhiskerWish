@@ -12,4 +12,5 @@ The project includes:
 
 ---
 
-Made with ❤️
+Made with love ❤️
+In memory of Sam3o :3 RIP old friend!
